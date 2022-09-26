@@ -1,0 +1,78 @@
+/* *{margin:0;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+body{font-size:75%;background:#222;font-family:arial;padding:20px 0 0 20px}
+canvas{border:1px solid #181818;display:block;box-shadow:0 0 10px #111;background:rgba(20,20,20,1)} */
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; }
+  
+  .dunya {
+    width: 150px;
+    height: 150px;
+    background: url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
+    border-radius: 100%;
+    background-size: 380px;
+    animation: spin 3.5s infinite linear; }
+  
+  .logo {
+    margin-top: 15px;
+    color: #51609B;
+    font-weight: bold; }
+  
+  @keyframes spin {
+    0% {
+      background-position-x: 0; }
+    100% {
+      background-position-x: 380px; } }
+   */
+   #header{
+    background-color: #06191D;
+  }
+  #top-bar{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #new{
+    flex-direction: row;
+  }
+  @media screen and (max-width: 768px) {
+    #top-bar{
+      flex-direction: column;
+      margin-left: none;
+      justify-content: none;
+    }
+    #new{
+      flex-direction: column;
+    }
+    #services{
+      flex-direction: column;
+    }
+    #ser{
+      margin-bottom: 20px;
+      margin-right: 20%;
+      margin-left: 20%;
+    }
+    
+  }
+  @media screen and (max-width: 576px){
+    #top-bar{
+      flex-direction: column;
+    }
+    #parent{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  #list{
+    padding: 0px 20px;
+  }
+  
+  
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
+  

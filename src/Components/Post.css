@@ -1,0 +1,37 @@
+#pos{
+    background-color: black;
+    margin:3%;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+#allpost{
+    padding: 20px;
+}
+.initial{
+    background-color: rgb(97, 96, 96);
+}
+.question{
+    text-align: center;
+}
+#comment,#like,#dislike{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#comment:hover,#profile:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#like:hover{
+    color: green;
+    cursor: pointer;
+}
+#dislike:hover{
+    color:red;
+    cursor: pointer;
+}
+.delete:hover{
+    cursor: pointer;
+    color: red;
+}
